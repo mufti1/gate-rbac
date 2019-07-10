@@ -1,4 +1,4 @@
-# Gate RBAC Helm Chart
+# Minimum Service Account Helm Chart
 
 This is chart to create minimum service account on [Kubernetes](http://kubernetes.io) cluster using [Helm](https://helm.sh) package manager.
 

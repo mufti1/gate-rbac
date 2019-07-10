@@ -1,4 +1,4 @@
-# Gate RBAC Helm Packages
+# Minimum Service Account Helm Packages
 
 Maintains the Helm packages of minimum-sa.
 
