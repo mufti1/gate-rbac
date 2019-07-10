@@ -15,7 +15,7 @@ helm repo add minimum-sa https://mufti1.github.io/helm-minimum-sa
 To install the chart with the release name `minimum-sa`:
 
 ```bash
-helm install --name minimum-sa minimum-sa
+helm install --name minimum-sa minimum-sa/minimum-sa
 ```
 
 ## Uninstalling the Chart

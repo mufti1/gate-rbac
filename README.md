@@ -13,7 +13,7 @@ helm repo add minimum-sa https://mufti1.github.io/helm-minimum-sa
 Install `minimum-sa` package with release name minimum-sa:
 
 ```bash
-helm install --name minimum-sa minimum-sa
+helm install --name minimum-sa minimum-sa/minimum-sa
 ```
 
 Adding New Package
