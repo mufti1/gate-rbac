@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  minimum-sa:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2019-07-10T15:28:46.891698+07:00"
+    digest: 7c612afbaade93ae48cf9a43f3bb69bcf48be145d66bec4df595e6e2132ac05f
+    home: https://github.com/mufti1/helm-minimum-sa
+    name: minimum-sa
+    sources:
+    - https://github.com/mufti1/helm-minimum-sa
+    urls:
+    - https://mufti1.github.io/helm-minimum-sa/minimum-sa-0.0.1.tgz
+    version: 0.0.1
+generated: "2019-07-10T15:28:46.890112+07:00"

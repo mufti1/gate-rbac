@@ -1,8 +1,0 @@
-apiVersion: v1
-name: gate-rbac
-version: 0.0.1
-appVersion: 0.0.1
-descriptuon: This is minimal RBAC permission chart for gate deployment
-home: https://github.com/mufti1/gate-rbac
-sources:
-- https://github.com/mufti1/gate-rbac
