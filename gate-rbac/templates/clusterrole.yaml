@@ -1,0 +1,11 @@
+kind: ClusterRole
+apiVersion: {{ template "rbac.apiVersion" . }}
+metadata:
+  name: {{ template "gate.fullname" . }}
+rules:
+  - apiGroups: [""]
+    resources: ["pods/portforward"]
+    verbs: ["create"]
+  - apiGroups: [""]
+    resources: ["pods"]
+    verbs: ["list", "get"]
