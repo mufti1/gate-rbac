@@ -1,0 +1,12 @@
+kind: ClusterRoleBinding
+apiVersion: {{ template "rbac.apiVersion" . }}
+metadata:
+  name: {{ template "minimum-sa.fullname" . }}
+roleRef:
+  kind: ClusterRole
+  apiGroup: rbac.authorization.k8s.io
+  name: {{ template "minimum-sa.fullname" . }}
+subjects:
+  - kind: ServiceAccount
+    name: {{ template "minimum-sa.fullname" . }}
+    namespace: {{ .Release.Namespace }}
